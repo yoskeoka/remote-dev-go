@@ -1,0 +1,14 @@
+// See https://aka.ms/vscode-remote/containers for the
+// documentation about the devcontainer.json format
+{
+	"dockerComposeFile": [
+        "../docker-compose.yml",
+        "docker-compose.extend.yml"
+    ],
+	"service": "dev",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose",
+	"extensions": [
+		"ms-vscode.go"
+	]
+}
