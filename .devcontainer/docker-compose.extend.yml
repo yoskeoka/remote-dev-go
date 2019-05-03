@@ -5,7 +5,7 @@ services:
       context: .devcontainer
       dockerfile: Dockerfile
     volumes:
-      - .:/workspace
+      - .:/root/workspace
       - ~/.gitconfig:/root/.gitconfig
     ports:
       - 9080:9080

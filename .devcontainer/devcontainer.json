@@ -6,7 +6,7 @@
         "docker-compose.extend.yml"
     ],
 	"service": "dev",
-	"workspaceFolder": "/workspace",
+	"workspaceFolder": "/root/workspace",
 	"shutdownAction": "stopCompose",
 	"extensions": [
 		"ms-vscode.go"
