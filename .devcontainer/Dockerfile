@@ -29,7 +29,7 @@ RUN go get -x -d github.com/stamblerre/gocode \
 COPY settings.vscode.json /root/.vscode-remote/data/Machine/settings.json
 
 # Verify git, process tools installed
-RUN apt-get update && apt-get -y install git procps
+RUN apt-get update && apt-get -y install git procps vim
 
 # Clean up
 RUN apt-get autoremove -y \
